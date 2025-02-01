@@ -1,0 +1,17 @@
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;  
+
+  span{
+    //This is how to use selectors and pseudo selectors in scss 
+    &:first-child{
+        font-weight: bold;
+    }
+
+    &:last-child{
+        font-size: 14px;
+    }
+  }
+}
