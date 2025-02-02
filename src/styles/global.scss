@@ -20,6 +20,9 @@ a {
 
 .container {
   display: flex;
+  @include xxl{
+    
+  }
 }
 
 .menuContainer {

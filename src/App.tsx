@@ -8,6 +8,8 @@ import Footer from "./components/footer/Footer";
 import Menu from "./components/menu/Menu";
 import Login from "./pages/login/Login";
 import "./styles/global.scss";
+import User from "./pages/user/User";
+import Product from "./pages/product/Product";
 
 
 function App() {
@@ -34,6 +36,8 @@ function App() {
           <Route index element={<Home />} />
           <Route path="users" element={<Users />} />
           <Route path="products" element={<Products />} />
+          <Route path="users/:id" element={<User />} />
+          <Route path="products/:id" element={<Product/>} />
         </Route>
         <Route path="/login" element={<Login />} />
       </Routes>
