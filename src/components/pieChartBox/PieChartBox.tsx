@@ -1,4 +1,3 @@
-import React from "react";
 import "./pieChartBox.scss";
 import { Cell, Pie, PieChart, ResponsiveContainer, Tooltip } from "recharts";
 

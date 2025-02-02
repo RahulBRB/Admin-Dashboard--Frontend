@@ -15,7 +15,7 @@ const columns: GridColDef<(typeof rows)[number]>[] = [
       headerName:'Avatar',
       width:100,
       renderCell:(params)=>(
-          <img src={params.row.img || "/noavatar.png"} alt='' className='avatar'/>
+          <img src={(params.row as any).img || "/noavatar.png"} alt='' className='avatar'/>
       )
   },
  

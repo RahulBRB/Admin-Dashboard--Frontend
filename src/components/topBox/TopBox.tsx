@@ -1,4 +1,3 @@
-import React from 'react'
 import "./topBox.scss"
 import { topDealUsers } from '../../data.ts'
 

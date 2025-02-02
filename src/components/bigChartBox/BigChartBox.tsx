@@ -1,9 +1,7 @@
-import React from "react";
 import "./bigChartBox.scss";
 import {
   Area,
   AreaChart,
-  CartesianGrid,
   ResponsiveContainer,
   Tooltip,
   XAxis,

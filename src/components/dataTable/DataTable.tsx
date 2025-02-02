@@ -1,4 +1,3 @@
-import React from 'react'
 import './dataTable.scss'
 
 import { DataGrid, GridColDef, GridToolbar } from '@mui/x-data-grid'

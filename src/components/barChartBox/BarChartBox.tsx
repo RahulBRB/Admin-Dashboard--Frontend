@@ -1,4 +1,3 @@
-import React from "react";
 import "./barChartBox.scss";
 import { Bar, BarChart, ResponsiveContainer, Tooltip } from "recharts";
 
